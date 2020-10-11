@@ -1,0 +1,932 @@
+{
+    "countries": [
+        {
+            "name": "Allemagne",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Berlin",
+                    "capital": true
+                },
+                {
+                    "name": "Francfort",
+                    "capital": false
+                },
+                {
+                    "name": "Cologne",
+                    "capital": false
+                },
+                {
+                    "name": "Hambourg",
+                    "capital": false
+                },
+                {
+                    "name": "Munich",
+                    "capital": false
+                }
+            ]
+        },
+        {
+            "name": "Autriche",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Vienne",
+                    "capital": true
+                },
+                {
+                    "name": "Salzbourg",
+                    "capital": false
+                }
+            ]
+        },
+        {
+            "name": "Belgique",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Bruxelles",
+                    "capital": true
+                },
+                {
+                    "name": "Bruges",
+                    "capital": false
+                },
+                {
+                    "name": "Anvers",
+                    "capital": false
+                }
+            ]
+        },
+        {
+            "name": "Bulgarie",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Sofia",
+                    "capital": true
+                }
+            ]
+        },
+        {
+            "name": "Chypre",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Nicosie",
+                    "capital": true
+                }
+            ]
+        },
+        {
+            "name": "Croatie",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Zagreb",
+                    "capital": true
+                },
+                {
+                    "name": "DubrovniK",
+                    "capital": false
+                }
+            ]
+        },
+        {
+            "name": "Danemark",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Copenhague",
+                    "capital": true
+                }
+            ]
+        },
+        {
+            "name": "Espagne",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Madrid",
+                    "capital": true
+                },
+                {
+                    "name": "Barcelone",
+                    "capital": false
+                },
+                {
+                    "name": "Salamanque",
+                    "capital": false
+                },
+                {
+                    "name": "Seville",
+                    "capital": false
+                }
+            ]
+        },
+        {
+            "name": "Estonie",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Tallinn",
+                    "capital": true
+                }
+            ]
+        },
+        {
+            "name": "Finlande",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Helsinki",
+                    "capital": true
+                }
+            ]
+        },
+        {
+            "name": "France",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Paris",
+                    "capital": true
+                },
+                {
+                    "name": "Versaille",
+                    "capital": false
+                },
+                {
+                    "name": "Mont-Saint-Michel",
+                    "capital": false
+                },
+                {
+                    "name": "Tours",
+                    "capital": false
+                },
+                {
+                    "name": "Saint-Tropez",
+                    "capital": false
+                },
+                {
+                    "name": "Strasbourg",
+                    "capital": false
+                }
+            ]
+        },
+        {
+            "name": "Grande-Bretagne",
+            "eu": false,
+            "cities": [
+                {
+                    "name": "Londres",
+                    "capital": true
+                },
+                {
+                    "name": "Edimbourg",
+                    "capital": false
+                },
+                {
+                    "name": "Newcastle",
+                    "capital": false
+                },
+                {
+                    "name": "Stonehenge",
+                    "capital": false
+                }
+            ]
+        },
+        {
+            "name": "Grece",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Athenes",
+                    "capital": true
+                },
+                {
+                    "name": "Delphes",
+                    "capital": false
+                },
+                {
+                    "name": "Les Meteores",
+                    "capital": false
+                }
+            ]
+        },
+        {
+            "name": "Hongrie",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Budapest",
+                    "capital": true
+                }
+            ]
+        },
+        {
+            "name": "Irlande",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Dublin",
+                    "capital": true
+                }
+            ]
+        },
+        {
+            "name": "Italie",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Rome",
+                    "capital": true
+                },
+                {
+                    "name": "Milan",
+                    "capital": false
+                },
+                {
+                    "name": "Florence",
+                    "capital": false
+                },
+                {
+                    "name": "Naples",
+                    "capital": false
+                },
+                {
+                    "name": "Pise",
+                    "capital": false
+                },
+                {
+                    "name": "Venise",
+                    "capital": false
+                }
+            ]
+        },
+        {
+            "name": "Lettonie",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Riga",
+                    "capital": true
+                }
+            ]
+        },
+        {
+            "name": "Lituanie",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Vilnius",
+                    "capital": true
+                }
+            ]
+        },
+        {
+            "name": "Luxembourg",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Luxembourg",
+                    "capital": true
+                }
+            ]
+        },
+        {
+            "name": "Malte",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "La Valette",
+                    "capital": true
+                }
+            ]
+        },
+        {
+            "name": "Pays-Bas",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Amsterdam",
+                    "capital": true
+                },
+                {
+                    "name": "Anvers",
+                    "capital": false
+                },
+                {
+                    "name": "La Haye",
+                    "capital": false
+                }
+            ]
+        },
+        {
+            "name": "Pologne",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Varsovie",
+                    "capital": true
+                },
+                {
+                    "name": "Cracovie",
+                    "capital": false
+                }
+            ]
+        },
+        {
+            "name": "Portugal",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Lisbonne",
+                    "capital": true
+                }
+            ]
+        },
+        {
+            "name": "Roumanie",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Bucarest",
+                    "capital": true
+                }
+            ]
+        },
+        {
+            "name": "Slovaquie",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Bratislava",
+                    "capital": true
+                }
+            ]
+        },
+        {
+            "name": "Slovenie",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Ljubljana",
+                    "capital": true
+                }
+            ]
+        },
+        {
+            "name": "Suede",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Oslo",
+                    "capital": true
+                }
+            ]
+        },
+        {
+            "name": "Tchequie",
+            "eu": true,
+            "cities": [
+                {
+                    "name": "Prague",
+                    "capital": true
+                }
+            ]
+        },
+        {
+            "name": "Turquie",
+            "eu": false,
+            "cities": [
+                {
+                    "name": "Istanbul",
+                    "capital": true
+                }
+            ]
+        }
+    ],
+    "train": [
+        {
+            "cityA":"Berlin",
+            "cityB":"Cologne",
+            "distance":576
+        },
+        {
+            "cityA":"Berlin",
+            "cityB":"Franckfort",
+            "distance":550
+        },
+        {
+            "cityA":"Berlin",
+            "cityB":"Hambourg",
+            "distance":287
+        },
+        {
+            "cityA":"Berlin",
+            "cityB":"Munich",
+            "distance":588
+        },
+        {
+            "cityA":"Berlin",
+            "cityB":"Prague",
+            "distance":359
+        },
+        {
+            "cityA":"Berlin",
+            "cityB":"Varsovie",
+            "distance":549
+        },
+        {
+            "cityA":"Franckfort",
+            "cityB":"Bruxelles",
+            "distance":402
+        },
+        {
+            "cityA":"Franckfort",
+            "cityB":"Cologne",
+            "distance":195
+        },
+        {
+            "cityA":"Franckfort",
+            "cityB":"Luxembourg",
+            "distance":234
+        },
+        {
+            "cityA":"Franckfort",
+            "cityB":"Munich",
+            "distance":397
+        },
+        {
+            "cityA":"Franckfort",
+            "cityB":"Prague",
+            "distance":530
+        },
+        {
+            "cityA":"Franckfort",
+            "cityB":"Strasbourg",
+            "distance":219
+        },
+        {
+            "cityA":"Vienne",
+            "cityB":"Belgrade",
+            "distance":652
+        },
+        {
+            "cityA":"Vienne",
+            "cityB":"Bratislava",
+            "distance":63
+        },
+        {
+            "cityA":"Vienne",
+            "cityB":"Budapest",
+            "distance":239
+        },
+        {
+            "cityA":"Vienne",
+            "cityB":"Prague",
+            "distance":285
+        },
+        {
+            "cityA":"Vienne",
+            "cityB":"Munich",
+            "distance":437
+        },
+        {
+            "cityA":"Vienne",
+            "cityB":"Salzbourg",
+            "distance":301
+        },
+        {
+            "cityA":"Bruxelles",
+            "cityB":"Anvers",
+            "distance":45
+        },
+        {
+            "cityA":"Bruxelles",
+            "cityB":"Amsterdam",
+            "distance":216
+        },
+        {
+            "cityA":"Bruxelles",
+            "cityB":"Bruges",
+            "distance":96
+        },
+        {
+            "cityA":"Bruxelles",
+            "cityB":"Cologne",
+            "distance":210
+        },
+        {
+            "cityA":"Bruxelles",
+            "cityB":"La Haye",
+            "distance":173
+        },
+        {
+            "cityA":"Bruxelles",
+            "cityB":"Luxembourg",
+            "distance":215
+        },
+        {
+            "cityA":"Bruxelles",
+            "cityB":"Paris",
+            "distance":306
+        },
+        {
+            "cityA":"Madrid",
+            "cityB":"Barcelone",
+            "distance":657
+        },
+        {
+            "cityA":"Madrid",
+            "cityB":"Gibraltar",
+            "distance":733
+        },
+        {
+            "cityA":"Madrid",
+            "cityB":"Lisbonne",
+            "distance":625
+        },
+        {
+            "cityA":"Madrid",
+            "cityB":"Salamanque",
+            "distance":216
+        },
+        {
+            "cityA":"Madrid",
+            "cityB":"Seville",
+            "distance":610
+        },
+        {
+            "cityA":"Paris",
+            "cityB":"Berne",
+            "distance":561
+        },
+        {
+            "cityA":"Paris",
+            "cityB":"Bruge",
+            "distance":293
+        },
+        {
+            "cityA":"Paris",
+            "cityB":"Geneve",
+            "distance":546
+        },
+        {
+            "cityA":"Paris",
+            "cityB":"Londres",
+            "distance":466
+        },
+        {
+            "cityA":"Paris",
+            "cityB":"Luxembourg",
+            "distance":379
+        },
+        {
+            "cityA":"Paris",
+            "cityB":"Mont-Saint-Michel",
+            "distance":372
+        },
+        {
+            "cityA":"Paris",
+            "cityB":"Saint-Tropez",
+            "distance":561
+        },
+        {
+            "cityA":"Paris",
+            "cityB":"Strasbourg",
+            "distance":489
+        },
+        {
+            "cityA":"Paris",
+            "cityB":"Tours",
+            "distance":240
+        },
+        {
+            "cityA":"Paris",
+            "cityB":"Berne",
+            "distance":561
+        },
+        {
+            "cityA":"Saint-Tropez",
+            "cityB":"Barcelone",
+            "distance":630
+        },
+        {
+            "cityA":"Saint-Tropez",
+            "cityB":"Berne",
+            "distance":648
+        },
+        {
+            "cityA":"Saint-Tropez",
+            "cityB":"Florence",
+            "distance":533
+        },
+        {
+            "cityA":"Saint-Tropez",
+            "cityB":"Geneve",
+            "distance":582
+        },
+        {
+            "cityA":"Saint-Tropez",
+            "cityB":"Milan",
+            "distance":430
+        },
+        {
+            "cityA":"Saint-Tropez",
+            "cityB":"Pise",
+            "distance":472
+        },
+        {
+            "cityA":"Saint-Tropez",
+            "cityB":"Venise",
+            "distance":684
+        },
+        {
+            "cityA":"Strasbourg",
+            "cityB":"Berne",
+            "distance":232
+        },
+        {
+            "cityA":"Strasbourg",
+            "cityB":"Geneve",
+            "distance":404
+        },
+        {
+            "cityA":"Strasbourg",
+            "cityB":"Milan",
+            "distance":430
+        },
+        {
+            "cityA":"Strasbourg",
+            "cityB":"Pise",
+            "distance":472
+        },
+        {
+            "cityA":"Strasbourg",
+            "cityB":"Venise",
+            "distance":684
+        },
+        {
+            "cityA":"Londres",
+            "cityB":"Anvers",
+            "distance":322
+        },
+        {
+            "cityA":"Londres",
+            "cityB":"Dublin",
+            "distance":568
+        },
+        {
+            "cityA":"Londres",
+            "cityB":"Edimbourg",
+            "distance":621
+        },
+        {
+            "cityA":"Londres",
+            "cityB":"La Haye",
+            "distance":468
+        },
+        {
+            "cityA":"Londres",
+            "cityB":"Mont-Saint-Michel",
+            "distance":279
+        },
+        {
+            "cityA":"Londres",
+            "cityB":"Newcastle",
+            "distance":453
+        },
+        {
+            "cityA":"Londres",
+            "cityB":"Stonehenge",
+            "distance":152
+        },
+        {
+            "cityA":"Athenes",
+            "cityB":"Delphes",
+            "distance":230
+        },
+        {
+            "cityA":"Athenes",
+            "cityB":"Les Meteores",
+            "distance":360
+        },
+        {
+            "cityA":"Athenes",
+            "cityB":"Sofia",
+            "distance":806
+        },
+        {
+            "cityA":"Rome",
+            "cityB":"Florence",
+            "distance":230
+        },
+        {
+            "cityA":"Rome",
+            "cityB":"Milan",
+            "distance":596
+        },
+        {
+            "cityA":"Rome",
+            "cityB":"Naples",
+            "distance":231
+        },
+        {
+            "cityA":"Rome",
+            "cityB":"Pise",
+            "distance":368
+        },
+        {
+            "cityA":"Rome",
+            "cityB":"Venise",
+            "distance":543
+        },
+        {
+            "cityA":"Milan",
+            "cityB":"Berne",
+            "distance":356
+        },
+        {
+            "cityA":"Milan",
+            "cityB":"Geneve",
+            "distance":443
+        },
+        {
+            "cityA":"Milan",
+            "cityB":"FLorence",
+            "distance":306
+        },
+        {
+            "cityA":"Milan",
+            "cityB":"Pise",
+            "distance":293
+        },
+        {
+            "cityA":"Milan",
+            "cityB":"Venise",
+            "distance":280
+        },
+        {
+            "cityA":"Vilnius",
+            "cityB":"Cracovie",
+            "distance":782
+        },
+        {
+            "cityA":"Vilnius",
+            "cityB":"Riga",
+            "distance":310
+        },
+        {
+            "cityA":"Vilnius",
+            "cityB":"Taillin",
+            "distance":900
+        },
+        {
+            "cityA":"Vilnius",
+            "cityB":"Varsovie",
+            "distance":489
+        },
+        {
+            "cityA":"Luxembourg",
+            "cityB":"Anvers",
+            "distance":255
+        },
+        {
+            "cityA":"Luxembourg",
+            "cityB":"Bruges",
+            "distance":318
+        },
+        {
+            "cityA":"Luxembourg",
+            "cityB":"Cologne",
+            "distance":208
+        },
+        {
+            "cityA":"Amsterdam",
+            "cityB":"Bruges",
+            "distance":262
+        },
+        {
+            "cityA":"Amsterdam",
+            "cityB":"Cologne",
+            "distance":269
+        },
+        {
+            "cityA":"Amsterdam",
+            "cityB":"Hambourg",
+            "distance":431
+        },
+        {
+            "cityA":"Amsterdam",
+            "cityB":"La Haye",
+            "distance":61
+        },
+        {
+            "cityA":"La Haye",
+            "cityB":"Anvers",
+            "distance":127
+        },
+        {
+            "cityA":"La Haye",
+            "cityB":"Bruges",
+            "distance":229
+        },
+        {
+            "cityA":"La Haye",
+            "cityB":"Cologne",
+            "distance":286
+        },
+        {
+            "cityA":"Varsovie",
+            "cityB":"Bratislava",
+            "distance":682
+        },
+        {
+            "cityA":"Varsovie",
+            "cityB":"Budapest",
+            "distance":777
+        },
+        {
+            "cityA":"Varsovie",
+            "cityB":"Cracovie",
+            "distance":293
+        },
+        {
+            "cityA":"Varsovie",
+            "cityB":"Prague",
+            "distance":643
+        },
+        {
+            "cityA":"Prague",
+            "cityB":"Bratislava",
+            "distance":347
+        },
+        {
+            "cityA":"Prague",
+            "cityB":"Cracovie",
+            "distance":497
+        },
+        {
+            "cityA":"Prague",
+            "cityB":"Munich",
+            "distance":383
+        },
+        {
+            "cityA":"Prague",
+            "cityB":"Salzbourg",
+            "distance":524
+        },
+        {
+            "cityA":"Bucarest",
+            "cityB":"Belgrade",
+            "distance":640
+        },
+        {
+            "cityA":"Bucarest",
+            "cityB":"Budapest",
+            "distance":881
+        },
+        {
+            "cityA":"Bucarest",
+            "cityB":"Istanbul",
+            "distance":818
+        },
+        {
+            "cityA":"Bucarest",
+            "cityB":"Sofia",
+            "distance":420
+        },
+        {
+            "cityA":"Bratislava",
+            "cityB":"Budapest",
+            "distance":204
+        },
+        {
+            "cityA":"Bucarest",
+            "cityB":"Cracovie",
+            "distance":383
+        },
+        {
+            "cityA":"Berne",
+            "cityB":"Florence",
+            "distance":569
+        },
+        {
+            "cityA":"Berne",
+            "cityB":"Munich",
+            "distance":436
+        },
+        {
+            "cityA":"Berne",
+            "cityB":"Pise",
+            "distance":644
+        },
+        {
+            "cityA":"Berne",
+            "cityB":"Venise",
+            "distance":617
+        }
+    ]
+}
