@@ -63,7 +63,7 @@ export default {
         {
           icon: 'mdi-chart-bubble',
           title: 'Train',
-          to: '/inspire'
+          to: '/Train'
         }
       ],
       miniVariant: false,

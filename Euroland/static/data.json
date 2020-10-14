@@ -313,10 +313,6 @@
                     "capital": true
                 },
                 {
-                    "name": "Anvers",
-                    "capital": false
-                },
-                {
                     "name": "La Haye",
                     "capital": false
                 }
