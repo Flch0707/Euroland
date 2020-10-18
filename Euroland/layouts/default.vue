@@ -42,6 +42,14 @@
       :absolute="!fixed"
       app
     >
+      <a
+        href="https://github.com/Flch0707/Euroland"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Euroland GitHub
+      </a>
+      <v-spacer />
       <span>&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
   </v-app>
@@ -61,9 +69,9 @@ export default {
           to: '/'
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Train',
-          to: '/Train'
+          icon: 'mdi-directions',
+          title: 'Destinations',
+          to: '/Destination'
         }
       ],
       miniVariant: false,

@@ -12,6 +12,7 @@
       <v-tab-item v-for="city in cities" :key="city.name">
         <v-data-iterator
           :items="city && city.destination"
+          :items-per-page="50"
         >
           <template v-slot:default="props">
             <v-row>
@@ -27,40 +28,13 @@
                   <v-subheader class="primary" style="justify-content: space-between">
                     {{ item.name }}
                     <small> {{ item.country }} </small>
+                    <small> {{ item.eu }} </small>
                     <v-btn icon @click="GoToCity(item.name)">
                       <v-icon small>
                         mdi-magnify
                       </v-icon>
                     </v-btn>
                   </v-subheader>
-
-                  <v-divider />
-
-                  <v-list v-if="item && item.distanceTrain" dense>
-                    <v-list-item>
-                      <v-list-item-content class="font-italic grey darken-3">
-                        Train
-                      </v-list-item-content>
-                    </v-list-item>
-                    <v-list-item>
-                      <v-list-item-content>Distance:</v-list-item-content>
-                      <v-list-item-content class="align-end">
-                        {{ item.distanceTrain }}
-                      </v-list-item-content>
-                    </v-list-item>
-                    <v-list-item>
-                      <v-list-item-content>Price:</v-list-item-content>
-                      <v-list-item-content class="align-end">
-                        {{ item.priceTrain }}
-                      </v-list-item-content>
-                    </v-list-item>
-                    <v-list-item>
-                      <v-list-item-content>Time-tokens:</v-list-item-content>
-                      <v-list-item-content class="align-end">
-                        {{ item.tokenTrain }}
-                      </v-list-item-content>
-                    </v-list-item>
-                  </v-list>
                   <v-divider />
                   <v-list v-if="item && item.distancePlane" dense>
                     <v-list-item>
@@ -84,6 +58,32 @@
                       <v-list-item-content>Time-tokens:</v-list-item-content>
                       <v-list-item-content class="align-end">
                         {{ item.tokenPlane }}
+                      </v-list-item-content>
+                    </v-list-item>
+                  </v-list>
+                  <v-divider />
+                  <v-list v-if="item && item.distanceTrain" dense>
+                    <v-list-item>
+                      <v-list-item-content class="font-italic grey darken-3">
+                        Train
+                      </v-list-item-content>
+                    </v-list-item>
+                    <v-list-item>
+                      <v-list-item-content>Distance:</v-list-item-content>
+                      <v-list-item-content class="align-end">
+                        {{ item.distanceTrain }}
+                      </v-list-item-content>
+                    </v-list-item>
+                    <v-list-item>
+                      <v-list-item-content>Price:</v-list-item-content>
+                      <v-list-item-content class="align-end">
+                        {{ item.priceTrain }}
+                      </v-list-item-content>
+                    </v-list-item>
+                    <v-list-item>
+                      <v-list-item-content>Time-tokens:</v-list-item-content>
+                      <v-list-item-content class="align-end">
+                        {{ item.tokenTrain }}
                       </v-list-item-content>
                     </v-list-item>
                   </v-list>
@@ -125,7 +125,6 @@ export default {
               distPlane = this.GetDistancePlane(city, planeRoute)
               dest = {
                 name: planeRoute.name,
-                country: this.getCountry(planeRoute.name),
                 distancePlane: Math.round(distPlane) + 'Km',
                 pricePlane: this.GetPricePlane(distPlane) + '€',
                 tokenPlane: this.getTokensPlane(distPlane)
@@ -139,7 +138,6 @@ export default {
           if (trainRoute.cityA === city.name) {
             dest = {
               name: trainRoute.cityB,
-              country: this.getCountry(trainRoute.cityB),
               distanceTrain: trainRoute.distance + 'Km',
               priceTrain: this.GetPriceTrain(trainRoute.distance) + '€',
               tokenTrain: this.getTokensTrain(trainRoute.distance)
@@ -148,7 +146,6 @@ export default {
           if (trainRoute.cityB === city.name) {
             dest = {
               name: trainRoute.cityA,
-              country: this.getCountry(trainRoute.cityA),
               distanceTrain: trainRoute.distance + 'Km',
               priceTrain: this.GetPriceTrain(trainRoute.distance) + '€',
               tokenTrain: this.getTokensTrain(trainRoute.distance)
@@ -164,6 +161,7 @@ export default {
           const dest = {}
           dest.name = name
           dest.country = this.getCountry(name)
+          dest.eu = this.IsEU(name)
           if (listDestPlane.map(e => e.name).includes(name)) {
             const tempObj = listDestPlane.filter(el => el.name === name)[0]
             dest.distancePlane = tempObj.distancePlane
@@ -201,6 +199,11 @@ export default {
       return data.countries.map((country) => {
         return country.cities.map(city => city.name).includes(name) ? country.name : null
       }).filter(country => country !== null)[0]
+    },
+    IsEU (name) {
+      return data.countries.map((country) => {
+        return country.cities.map(city => city.name).includes(name) ? country.eu : null
+      }).filter(eu => eu !== null)[0] ? '(EU)' : '(Foreign)'
     },
     GetPriceTrain (distance) {
       let price = 0
@@ -245,7 +248,7 @@ export default {
     },
     getTokensPlane (distance) {
       let tokens = 1
-      const nbDigit = distance.toString().length
+      const nbDigit = Math.round(distance).toString().length
       if (distance <= 1000) {
         tokens += 1
       } else {
