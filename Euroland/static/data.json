@@ -6,10 +6,12 @@
             "cities": [
                 {
                     "name": "Berlin",
-                    "capital": true
+                    "capital": true,
+                    "lat":52.4827,
+                    "long":13.2905
                 },
                 {
-                    "name": "Francfort",
+                    "name": "Franckfort",
                     "capital": false
                 },
                 {
@@ -32,7 +34,9 @@
             "cities": [
                 {
                     "name": "Vienne",
-                    "capital": true
+                    "capital": true,
+                    "lat":48.2167,
+                    "long":15.6167
                 },
                 {
                     "name": "Salzbourg",
@@ -46,7 +50,9 @@
             "cities": [
                 {
                     "name": "Bruxelles",
-                    "capital": true
+                    "capital": true,
+                    "lat":50.8466,
+                    "long":4.3528
                 },
                 {
                     "name": "Bruges",
@@ -64,7 +70,9 @@
             "cities": [
                 {
                     "name": "Sofia",
-                    "capital": true
+                    "capital": true,
+                    "lat":42.6977082,
+                    "long":23.3218675
                 }
             ]
         },
@@ -74,7 +82,9 @@
             "cities": [
                 {
                     "name": "Nicosie",
-                    "capital": true
+                    "capital": true,
+                    "lat":35.167406,
+                    "long":33.435499
                 }
             ]
         },
@@ -84,7 +94,9 @@
             "cities": [
                 {
                     "name": "Zagreb",
-                    "capital": true
+                    "capital": true,
+                    "lat":45.8150108,
+                    "long":15.981919
                 },
                 {
                     "name": "DubrovniK",
@@ -98,7 +110,9 @@
             "cities": [
                 {
                     "name": "Copenhague",
-                    "capital": true
+                    "capital": true,
+                    "lat":56.155403,
+                    "long":11.617223
                 }
             ]
         },
@@ -108,11 +122,15 @@
             "cities": [
                 {
                     "name": "Madrid",
-                    "capital": true
+                    "capital": true,
+                    "lat":40.416775,
+                    "long":-3.703790
                 },
                 {
                     "name": "Barcelone",
-                    "capital": false
+                    "capital": true,
+                    "lat":41.3833,
+                    "long":2.1833
                 },
                 {
                     "name": "Salamanque",
@@ -130,7 +148,9 @@
             "cities": [
                 {
                     "name": "Tallinn",
-                    "capital": true
+                    "capital": true,
+                    "lat":59.4369608,
+                    "long":24.7535746
                 }
             ]
         },
@@ -140,7 +160,9 @@
             "cities": [
                 {
                     "name": "Helsinki",
-                    "capital": true
+                    "capital": true,
+                    "lat":60.1756,
+                    "long":24.9342
                 }
             ]
         },
@@ -150,7 +172,9 @@
             "cities": [
                 {
                     "name": "Paris",
-                    "capital": true
+                    "capital": true,
+                    "lat":48.8534,
+                    "long":2.3488
                 },
                 {
                     "name": "Versaille",
@@ -170,7 +194,9 @@
                 },
                 {
                     "name": "Strasbourg",
-                    "capital": false
+                    "capital": true,
+                    "lat":48.5833,
+                    "long":7.75
                 }
             ]
         },
@@ -180,7 +206,9 @@
             "cities": [
                 {
                     "name": "Londres",
-                    "capital": true
+                    "capital": true,
+                    "lat":54.633221,
+                    "long":-3.432277
                 },
                 {
                     "name": "Edimbourg",
@@ -202,7 +230,9 @@
             "cities": [
                 {
                     "name": "Athenes",
-                    "capital": true
+                    "capital": true,
+                    "lat":38.275283,
+                    "long":23.810343
                 },
                 {
                     "name": "Delphes",
@@ -220,7 +250,9 @@
             "cities": [
                 {
                     "name": "Budapest",
-                    "capital": true
+                    "capital": true,
+                    "lat":47.497913,
+                    "long":19.040236
                 }
             ]
         },
@@ -230,7 +262,9 @@
             "cities": [
                 {
                     "name": "Dublin",
-                    "capital": true
+                    "capital": true,
+                    "lat":47.497913,
+                    "long":19.040236
                 }
             ]
         },
@@ -240,7 +274,9 @@
             "cities": [
                 {
                     "name": "Rome",
-                    "capital": true
+                    "capital": true,
+                    "lat":41.902782,
+                    "long":12.496366
                 },
                 {
                     "name": "Milan",
@@ -270,7 +306,9 @@
             "cities": [
                 {
                     "name": "Riga",
-                    "capital": true
+                    "capital": true,
+                    "lat":56.9496487,
+                    "long":24.1051864
                 }
             ]
         },
@@ -280,7 +318,9 @@
             "cities": [
                 {
                     "name": "Vilnius",
-                    "capital": true
+                    "capital": true,
+                    "lat":54.6871555,
+                    "long":25.2796514
                 }
             ]
         },
@@ -290,7 +330,9 @@
             "cities": [
                 {
                     "name": "Luxembourg",
-                    "capital": true
+                    "capital": true,
+                    "lat":49.611621,
+                    "long":6.1319346
                 }
             ]
         },
@@ -300,7 +342,9 @@
             "cities": [
                 {
                     "name": "La Valette",
-                    "capital": true
+                    "capital": true,
+                    "lat":43.1333,
+                    "long":5.9833
                 }
             ]
         },
@@ -310,7 +354,9 @@
             "cities": [
                 {
                     "name": "Amsterdam",
-                    "capital": true
+                    "capital": true,
+                    "lat":52.133057,
+                    "long":4.899431
                 },
                 {
                     "name": "La Haye",
@@ -324,7 +370,9 @@
             "cities": [
                 {
                     "name": "Varsovie",
-                    "capital": true
+                    "capital": true,
+                    "lat":51.922751,
+                    "long":19.136874
                 },
                 {
                     "name": "Cracovie",
@@ -338,7 +386,9 @@
             "cities": [
                 {
                     "name": "Lisbonne",
-                    "capital": true
+                    "capital": true,
+                    "lat":39.553444,
+                    "long": -7.839319
                 }
             ]
         },
@@ -348,7 +398,9 @@
             "cities": [
                 {
                     "name": "Bucarest",
-                    "capital": true
+                    "capital": true,
+                    "lat": 44.4322500,
+                    "long": 26.1062600
                 }
             ]
         },
@@ -358,7 +410,9 @@
             "cities": [
                 {
                     "name": "Bratislava",
-                    "capital": true
+                    "capital": true,
+                    "lat": 48.1458923,
+                    "long": 17.1071373
                 }
             ]
         },
@@ -368,7 +422,9 @@
             "cities": [
                 {
                     "name": "Ljubljana",
-                    "capital": true
+                    "capital": true,
+                    "lat": 46.05108,
+                    "long": 14.50513
                 }
             ]
         },
@@ -378,7 +434,9 @@
             "cities": [
                 {
                     "name": "Oslo",
-                    "capital": true
+                    "capital": true,
+                    "lat": 59.911491,
+                    "long": 10.757933
                 }
             ]
         },
@@ -388,7 +446,9 @@
             "cities": [
                 {
                     "name": "Prague",
-                    "capital": true
+                    "capital": true,
+                    "lat": 50.073658,
+                    "long": 14.418540
                 }
             ]
         },
@@ -398,7 +458,9 @@
             "cities": [
                 {
                     "name": "Istanbul",
-                    "capital": true
+                    "capital": true,
+                    "lat": 41.00527,
+                    "long":	28.97696
                 }
             ]
         }
@@ -776,7 +838,7 @@
         },
         {
             "cityA":"Vilnius",
-            "cityB":"Taillin",
+            "cityB":"Tallinn",
             "distance":900
         },
         {
